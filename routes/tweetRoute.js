@@ -38,4 +38,9 @@ router.get("/counts/:id", async (req, res) => {
   }
 });
 
+router.get("/", (req, res) => {
+  res.send("Tweet route root - working.");
+});
+
+
 export default router;
